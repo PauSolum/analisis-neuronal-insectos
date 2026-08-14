@@ -26,3 +26,7 @@ Aquí queda todo mi trabajo del semestre: talleres, laboratorios y proyecto fina
 
 Los cuadernos se abren en Google Colab. Los datos de práctica se generan dentro del propio
 cuaderno, así que no hace falta descargar nada.
+
+## Bitácora
+
+- Lab 1: aprendí a filtrar un DataFrame por condición y a agrupar con `groupby`.
