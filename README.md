@@ -1,32 +1,20 @@
-# De la neurona a la figura
 
-Repositorio del curso *De la neurona a la figura: análisis neuronal en insectos asistido por IA*.
-Aquí queda todo mi trabajo del semestre: talleres, laboratorios y proyecto final.
+# Taller 1 - Análisis de datos neuronales
 
-**Autor:** <tu nombre>
-**Modelo experimental:** grillo (*Acheta domestica*), sistema cercal
-**Herramientas:** Python, pandas, matplotlib, Google Colab
+## Integrantes
+- María Paula López
+- Sebastian Jara
 
-## Organización
+## Descripción
+En este taller se analizó un registro extracelular neuronal. Se realizó filtrado de la señal, detección de spikes, evaluación de la detección, extracción de formas de onda, separación de unidades mediante K-means y análisis de la respuesta neuronal mediante raster, PSTH y heatmap.
 
-| Carpeta | Contenido |
-|---|---|
-| `talleres/` | cuadernos de los talleres calificables|
-| `practicas/` | cuadernos de los talleres no calificables hechos en laboratorio o en clase |
-| `/prompts/` | bitácoras de los prompts usados en cada sesión (un archivo de prompts por taller,lab|
-| `proyecto_final/` | pipeline, figuras y póster del proyecto final |
+## Archivos
+- `Taller1_Jara_López.ipynb`: notebook con el análisis completo.
+- `spikes_taller1.csv`: tiempos de los spikes detectados y unidad asignada.
+- `figuras/`: figuras generadas durante el análisis.
 
-## Avance del semestre
-
-| Sesión | Qué agregué |
-|---|---|
-| Lab 1 | Variables, listas, diccionarios, `pandas` y primeros prompts |
-
-## Cómo reproducir los análisis
-
-Los cuadernos se abren en Google Colab. Los datos de práctica se generan dentro del propio
-cuaderno, así que no hace falta descargar nada.
-
-## Bitácora
-
-- Lab 1: aprendí a filtrar un DataFrame por condición y a agrupar con `groupby`.
+## Cómo ejecutar el notebook
+1. Abrir el notebook en Google Colab.
+2. Cargar el archivo `taller1_datos.h5`.
+3. Ejecutar las celdas en orden desde el inicio.
+4. Verificar que todas las celdas de comprobación indiquen `OK`.
